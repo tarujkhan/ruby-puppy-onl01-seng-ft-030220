@@ -25,5 +25,5 @@ class Dog
     @all.print_all.each do |dog|
  puts dog
 end
-
+end
 end
