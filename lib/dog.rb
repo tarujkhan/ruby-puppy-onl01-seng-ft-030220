@@ -26,4 +26,9 @@ class Dog
  puts dog
 end
 end
+
+def self 
+  self << @@all
+  save
+
 end
