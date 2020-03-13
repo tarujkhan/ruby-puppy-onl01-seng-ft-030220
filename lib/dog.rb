@@ -31,5 +31,5 @@ def self
   @all << self
   save 
   
-
+end
 end
