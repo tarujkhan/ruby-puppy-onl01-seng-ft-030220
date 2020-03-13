@@ -29,6 +29,7 @@ end
 
 def self 
   self << @@all
-  save
+  save 
+  
 
 end
