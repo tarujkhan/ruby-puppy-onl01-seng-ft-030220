@@ -28,7 +28,7 @@ end
 end
 
 def self 
-  self << @@all
+  @all << self
   save 
   
 
