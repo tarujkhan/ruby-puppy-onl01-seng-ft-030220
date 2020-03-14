@@ -1,4 +1,5 @@
 # Add your code here
+require 'pry'
 
 class Dog
 
@@ -22,7 +23,9 @@ class Dog
   end
   
   def self.print_all
+    
     @@all.each do |dog|
+      binding.pry
  puts dog
 end
 end
