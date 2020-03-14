@@ -29,7 +29,7 @@ end
 
 def self 
   @all << self
-  save 
+  self
   
 end
 end
